@@ -10,14 +10,12 @@
     text-align: center;
 }
 
-.recipes {
+a {
     justify-content: center;
-}
-
-.recipeslist {
     font-family: Gamer;
     text-decoration: none;
     color: inherit;
+    font-size: 40px;
 }
 
 body {
@@ -34,26 +32,60 @@ body {
     animation: rainbow-gradient 20s linear infinite;
 }
 
+h1, h3 {
+    margin-bottom: 0;
+}
+
+h1 + h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
 
 h1, ul, h3 {
     text-align: center;
 }
 
-h1, h3 {
-    color: rgb(49, 49, 49);
+h1, h3, a, .options {
+    font-family: Gamer;
+    color: rgb(19, 19, 19);
     -webkit-text-size-adjust: 50%;
     -webkit-text-stroke: 2px;
     -webkit-text-stroke-color: white;
-    text-shadow: 10px 10px 10px rgb(30, 30, 30);;
+    text-shadow: 10px 10px 10px rgb(30, 30, 30);
+}
+
+.options {
+    padding-top: 70px;
+    font-size: 30px;
+    margin: auto;
 }
 
 h3 {
     font-size: 2rem;
+    padding-bottom: 200px;
 }
 
 ul {
     list-style: none;
-    padding: 0;
+    padding: 0px;
+}
+
+li { 
+    margin-inline: 0px;
+    font-size: large;
+    padding: 5%;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.recipes {
+    background-color:  rgba(49, 49, 49, 0.8);
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 0px;
+}
+
+li:hover {
+    transform: scale(1.2);
 }
 
 
