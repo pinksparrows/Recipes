@@ -1,9 +1,23 @@
+@font-face {
+    src: url('fonts/Minecrafter.Reg.ttf') format('truetype');
+    font-family: 'Gamer';
+}
+
 .header {
+    font-family: Gamer;
+    font-size: 3em;
     justify-content: top;
+    text-align: center;
 }
 
 .recipes {
     justify-content: center;
+}
+
+.recipeslist {
+    font-family: Gamer;
+    text-decoration: none;
+    color: inherit;
 }
 
 body {
@@ -21,16 +35,20 @@ body {
 }
 
 
-h1, ul {
+h1, ul, h3 {
     text-align: center;
 }
 
-h1 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: white;
+h1, h3 {
+    color: rgb(49, 49, 49);
     -webkit-text-size-adjust: 50%;
-    -webkit-text-stroke: 1px;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: white;
+    text-shadow: 10px 10px 10px rgb(30, 30, 30);;
+}
+
+h3 {
+    font-size: 2rem;
 }
 
 ul {
