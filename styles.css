@@ -1,8 +1,15 @@
+.header {
+    justify-content: top;
+}
+
+.recipes {
+    justify-content: center;
+}
+
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     height: 100vh;
     margin: 0;
     background: linear-gradient(to bottom right,red,orange,yellow,lightgreen,cyan,blue,purple);
@@ -12,6 +19,7 @@ body {
     background-image: url;
     animation: rainbow-gradient 20s linear infinite;
 }
+
 
 h1, ul {
     text-align: center;
