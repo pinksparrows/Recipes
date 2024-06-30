@@ -58,6 +58,7 @@ h1, h3, a, .options {
     padding-top: 70px;
     font-size: 30px;
     margin: auto;
+
 }
 
 h3 {
@@ -113,8 +114,34 @@ li:hover {
     height: 100%;
     object-fit: cover;
     z-index: -1;
+    overflow: hidden;
     display: block;
     filter: blur(5px);
     scale: 120%;
     background-color: rgba(0, 0, 0, 0);
+}
+
+.tiny {
+    font-size: x-large;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: white;
+    color: black;
+}
+
+.monstermeme {
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+    border: 5px solid white;
+}
+
+.list {
+    font-family: Gamer;
+    font-size: x-large;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+.CONSUME {
+    color: red;
 }
